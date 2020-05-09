@@ -86,7 +86,7 @@ async function copyToClipboard(color, colorElement) {
 }
 
 function clearToolTip(colorElement) {
-    colorElement.setAttribute('tooltip', "Copy to Clipboard");
+    colorElement.setAttribute('tooltip', "Click to Copy");
 };
 
 function textAreaAutoResize(event) {
