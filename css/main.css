@@ -1,0 +1,21 @@
+html,
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@supports (font-variation-settings: normal) {
+    html,
+    body {
+        font-family: "Inter var", sans-serif;
+    }
+}
+
+footer svg {
+    fill: #9f9f9f;
+    transition: all 60ms ease-out;
+}
+
+footer svg:hover {
+    fill: #333333;
+}
